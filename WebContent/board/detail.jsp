@@ -120,7 +120,7 @@
 				<br />
 				<div class="well">
 					<form method="post" action="../reply/register.jsp">
-						<input type="hidden" name="boardNo" value="1" />
+						<input type="hidden" name="boardNo" value="${board.no }" />
 						<div class="form-group">
 							<textarea rows="3" name="content"></textarea>
 						</div>
